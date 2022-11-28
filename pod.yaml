@@ -4,6 +4,7 @@ metadata:
   labels:
     run: helloworld
   name: helloworld
+  namespace: default
 spec:
   containers:
   - image: hello-world
